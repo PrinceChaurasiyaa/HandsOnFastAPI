@@ -39,6 +39,9 @@ Uvicorn receives client requests, forwards them to the FastAPI app, and sends ba
     To run this API:
     $ uvicorn 01_first_endpoint:app
 
+    httpie:
+    $ http http://127.0.0.1:8000
+
     Uvicorn will:
         -> Import 01_first_endpoint.py
         -> Locate app (FASTAPI object)
